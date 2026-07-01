@@ -47,7 +47,7 @@ html,
   tab-size: 4;
   /* 3 */
   font-family:
-    "Outfit", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
@@ -1341,8 +1341,7 @@ video {
 }
 
 body {
-  font-family: "Poppins";
-  font-display: swap;
+  font-family: ui-sans-serif, system-ui, sans-serif;
   color: #000929;
   background-color: #f7f7fd;
   display: flex;
